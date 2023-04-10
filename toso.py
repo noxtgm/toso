@@ -11,10 +11,7 @@ os.system("chkdsk")
 os.system("sfc /scannow")
 
 # Folder paths that will get their content deleted
-folder_paths = "/Users/user/AppData/Local/Temp", # Cleans the temporary files created by applications 
-                "/Users/user/Pictures/Screenshots", # Cleans the screenshots made using the WIN + SHIFT + S shortcut
-                "/Users/user/AppData/Local/CrashDumps", # Cleans the applications' crash dumps
-                "/$Recycle.Bin/S-1-5-21-4083530894-3095089788-2986954845-1003" # Cleans the recycle bin
+folder_paths = "/Users/user/AppData/Local/Temp", "/Users/user/Pictures/Screenshots", "/Users/user/AppData/Local/CrashDumps", "/$Recycle.Bin/S-1-5-21-4083530894-3095089788-2986954845-1003"
 
 for folder_path in folder_paths:
     # Check if the folder exists

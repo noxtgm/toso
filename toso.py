@@ -4,11 +4,11 @@ import shutil
 # Flush the DNS Resolver Cache
 os.system("ipconfig /flushdns")
 
-# Check for errors on the hard drive (requires admin privileges)
-os.system("chkdsk")
-
 # Scan for and repairs corrupt system files (requires admin privileges)
 os.system("sfc /scannow")
+
+# Check for errors on the hard drive (requires admin privileges)
+os.system("chkdsk")
 
 # Folder paths that will get their content deleted
 folder_paths = "/Users/user/AppData/Local/Temp", "/Users/user/Pictures/Screenshots", "/Users/user/AppData/Local/CrashDumps", "/$Recycle.Bin/S-1-5-21-4083530894-3095089788-2986954845-1003"

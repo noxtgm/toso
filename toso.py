@@ -4,15 +4,17 @@ import shutil
 # Flush the DNS Resolver Cache
 os.system("ipconfig /flushdns")
 
-# Scan for and repairs corrupt system files
-os.system("sfc /scannow")
-
 # Check for errors on the hard drive
 os.system("chkdsk")
 
+# Scan for and repairs corrupt system files
+os.system("sfc /scannow")
+
 # Folder paths that will get their content deleted
-folder_paths = ["/Users/noxtg/AppData/Local/Temp", "/Users/noxtg/Pictures/Screenshots",
-                "/Users/noxtg/AppData/Local/CrashDumps", "/$Recycle.Bin/S-1-5-21-4083530894-3095089788-2986954845-1003"]
+folder_paths = ["/Users/noxtg/AppData/Local/Temp", # Cleans the temporary files created by applications 
+                "/Users/noxtg/Pictures/Screenshots", # Cleans the screenshots made using the WIN + SHIFT + S shortcut
+                "/Users/noxtg/AppData/Local/CrashDumps", # Cleans the applications' crash dumps
+                "/$Recycle.Bin/S-1-5-21-4083530894-3095089788-2986954845-1003"] # 
 
 for folder_path in folder_paths:
     # Check if the folder exists

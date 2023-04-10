@@ -4,10 +4,10 @@ import shutil
 # Flush the DNS Resolver Cache
 os.system("ipconfig /flushdns")
 
-# Check for errors on the hard drive
+# Check for errors on the hard drive (requires admin privileges)
 os.system("chkdsk")
 
-# Scan for and repairs corrupt system files
+# Scan for and repairs corrupt system files (requires admin privileges)
 os.system("sfc /scannow")
 
 # Folder paths that will get their content deleted

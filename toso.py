@@ -42,10 +42,10 @@ def main():
     # Flush the DNS Resolver Cache
     os.system("ipconfig /flushdns")
 
-    # Scan for and repairs corrupt system files (requires admin privileges)
+    # Scan for and repairs corrupt system files
     os.system("sfc /scannow")
 
-    # Check for errors on the hard drive (requires admin privileges)
+    # Check for errors on the hard drive
     os.system("chkdsk")
 
 if __name__ == "__main__":

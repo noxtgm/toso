@@ -1,9 +1,20 @@
-Just a simple and totally overkill startup optimization script, either launch the script when you feel like it or follow the steps bellow to make it automatically run when your computer boots up.
+# Totally Overkill Startup Optimizations
 
-## Installation
+A simple and totally overkill startup optimization script. Either run the script when you feel like cleaning up your computer or go the extra mile and automatically run it on your computer startup.
+## ⚙️ Installation
+
 * Install Python
-* Paste `toso.py` anywhere on your computer
+* Download `toso.py`
 * Right click on `toso.py`
 * Left click on `Create shortcut`
 * Press `WIN + R` and type `shell:startup`
 * After pressing enter, paste the shortcut in the directory that popped up
+* You're all set ! Anytime your computer boots up it will ask for administration priviledges so it can run the system file and hard drive verifications
+## 🔑 License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## 🔗 Links
+
+[@NoxTGM](https://github.com/NoxTGM)

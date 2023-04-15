@@ -6,6 +6,7 @@ A simple and totally overkill startup optimization script. Either run the script
 
 * Install Python
 * Download `toso.py`
+* Edit `toso.py` to add the file paths that you want to clean
 * Right click on `toso.py`
 * Left click on `Create shortcut`
 * Press `WIN + R` and type `shell:startup`

@@ -9,9 +9,8 @@ def is_admin():
 def main():
     # Folder paths that will get their content deleted
     folder_paths = [
-        "C:/Users/noxtg/Pictures/Screenshots", # Cleans the screenshots made using the WIN + SHIFT + S shortcut
-        "C:/Users/noxtg/AppData/Local/Temp", # Cleans the temporary files created by applications 
-        "C:/Users/noxtg/AppData/Local/CrashDumps" # Cleans the applications' crash dumps
+        "C:/Users/user/AppData/Local/Temp", # Cleans the temporary files created by applications 
+        "C:/Users/user/AppData/Local/CrashDumps" # Cleans the applications' crash dumps
     ]
 
     for folder_path in folder_paths:

@@ -10,7 +10,7 @@ def main():
     # Folder paths that will get their content deleted
     folder_paths = [
         "C:/Users/user/AppData/Local/Temp", # Cleans the temporary files created by applications 
-        "C:/Users/user/AppData/Local/CrashDumps" # Cleans the applications' crash dumps
+        "C:/Users/user/AppData/Local/CrashDumps", # Cleans the applications' crash dumps
     ]
 
     for folder_path in folder_paths:

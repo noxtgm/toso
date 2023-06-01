@@ -1,6 +1,6 @@
 # Totally Overkill Startup Optimizations
 
-A simple and totally overkill startup optimization script. Either run the script when you feel like cleaning up your computer or go the extra mile and automatically run it when your computer starts up.
+A very simple and totally overkill startup optimization script. Either run the script when you feel like cleaning up your computer or go the extra mile and automatically run it when your computer starts up.
 
 ## ⚙️ Installation
 
@@ -19,4 +19,4 @@ A simple and totally overkill startup optimization script. Either run the script
 
 ## 🔗 Links
 
-[@NoxTGM](https://github.com/NoxTGM)
+[@NoxTGM on all socials](https://bento.me/noxtgm)

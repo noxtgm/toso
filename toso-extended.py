@@ -1,7 +1,13 @@
-import os, shutil
+import ctypes, os, sys, shutil
+
+def is_admin():
+    try:
+        return ctypes.windll.shell32.IsUserAnAdmin()
+    except AttributeError:
+        raise RuntimeError("Admin check not supported on this platform.")
 
 def main():
-    # Folder paths that will get their content deleted
+    # Folder paths that will get their content deleted (remember to change the windows username in the filepath)
     folder_paths = [
         "C:/Users/user/AppData/Local/Temp", # Cleans the temporary files created by applications 
         "C:/Users/user/AppData/Local/CrashDumps", # Cleans the applications' crash dumps
@@ -35,5 +41,15 @@ def main():
     # Flush the DNS Resolver Cache
     os.system("ipconfig /flushdns")
 
+    # Scan for and repairs corrupt system files
+    os.system("sfc /scannow")
+
+    # Check for errors on the hard drive
+    os.system("chkdsk")
+
 if __name__ == "__main__":
-    main()
+    if is_admin():
+        main()
+    else:
+        # Re-run the script with admin privileges
+        ctypes.windll.shell32.ShellExecuteW( None, "runas", sys.executable, f'"{__file__}"', None, 1 )

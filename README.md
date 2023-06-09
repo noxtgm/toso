@@ -5,13 +5,13 @@ A very simple and totally overkill startup optimization script. Either run the s
 ## ⚙️ Installation
 
 * Install Python
-* Download `toso.py`
-* Edit `toso.py` to add the file paths that you want to clean
-* Right click on `toso.py`
+* Download `toso.py` or `toso-extended.py`
+* Edit the file to add the file paths that you want to clean
+* Right click on the file
 * Left click on `Create shortcut`
 * Press `WIN + R` and type `shell:startup`
 * After pressing enter, paste the shortcut in the directory that popped up
-* You're all set ! Anytime your computer boots up it will ask for administration priviledges so it can run the system file and hard drive verifications
+* You're all set ! Anytime your computer boots up it will cleanup the specified folders and ask for administrator priviledges so it can run the system file and hard drive verifications if you chose the extended version
 
 ## 🔑 License
 

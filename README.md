@@ -8,7 +8,7 @@ The extended version is the admin privilege required version that in addition to
 
 ## ⚙️ Installation
 
-* Install Python
+* Install Python 3
 * Download `toso.py` or `toso-extended.py`
 * Edit the downloaded file to add the file paths that you want to clean up
 * Select the fime

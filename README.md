@@ -21,7 +21,7 @@ The normal version is just an easy and quick cleanup (useful to clean up the Win
 
 ###
 
-<div align=center style="text-align: center;"><h2>LICENSE</h2></div>
+<div align=center style="text-align: center;"><h2>LINKS</h2></div>
 
 [Mozilla Public License 2.0](https://choosealicense.com/licenses/mpl-2.0/)
 

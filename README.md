@@ -1,12 +1,13 @@
-# Totally Overkill Startup Optimizations
+<div align=center style="text-align: center;">
+<h1>Totally Overkill Startup Optimizations</h1>
+A very simple and totally overkill startup optimization script. Either run the script when you feel like cleaning up your computer or go the extra mile and automatically run it when your computer boots.
+</div>
 
-A very simple and totally overkill startup optimization script. Either run the script when you feel like cleaning up your computer or go the extra mile and automatically run it when your computer starts up.
+###
 
-The normal version is just an easy and quick cleanup (useful to clean up the Windows screenshots or dump folder for example).
+<div align=center style="text-align: center;"><h2>INSTALLATION</h2></div>
 
-The extended version is the admin privilege required version that in addition to the normal version checks for errors on the hard drive and scans for corrupt system files.
-
-## ⚙️ Installation
+The normal version is just an easy and quick cleanup (useful to clean up the Windows screenshots or dump folders for example). The extended version is the admin privilege required version that, in addition to the normal version, checks for errors on the hard drive and scans for corrupt system files.
 
 * Install Python 3
 * Download `toso.py` or `toso-extended.py`
@@ -18,10 +19,14 @@ The extended version is the admin privilege required version that in addition to
 * After pressing `ENTER`, paste the shortcut in the directory that popped up
 * You're all set ! Anytime your computer boots up it will cleanup the specified folders and ask for administrator priviledges so it can run the system file and hard drive verifications if you chose the extended version
 
-## 🔑 License
+###
 
-[MIT](https://choosealicense.com/licenses/mit/)
+<div align=center style="text-align: center;"><h2>LICENSE</h2></div>
 
-## 🔗 Links
+[Mozilla Public License 2.0](https://choosealicense.com/licenses/mpl-2.0/)
 
-[@NoxTGM on all socials](https://noxtgm.me/)
+###
+
+<div align=center style="text-align: center;"><h2>CONTACT</h2></div>
+
+<a href="https://noxtgm.me" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/NSwlxNu.png" alt="portfolio" width="40" height="40"/></a> <a href="https://github.com/noxtgm" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/LwT8Wxa.png" alt="github" width="40" height="40"/></a> <a href="https://twitter.com/noxtgm" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/P3s7bOl.png" alt="twitter" width="40" height="40"/></a> <a href="https://noxtgm.itch.io/" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/d9pIWxO.png" alt="itchio" width="40" height="40"/></a> <a href="https://next.nexusmods.com/profile/noxtgm" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/la4rbPq.png" alt="nexusmods" width="40" height="40"/></a>
